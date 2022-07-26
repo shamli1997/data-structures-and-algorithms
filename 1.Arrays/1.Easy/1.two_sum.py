@@ -5,7 +5,7 @@
 # output :
     # [-1, 11]
 
-# time : o(n^2), space : o(n)
+# time : o(n^2) | space : o(n)
 def twoNumberSumBrute(array, targetSum):
 	for i in range(0,len(array)-1):
 		firstNum = array[i]
@@ -16,7 +16,7 @@ def twoNumberSumBrute(array, targetSum):
 			
 	return []
 
-# time : o(n), space : o(n)
+# time : o(n) | space : o(n)
 def twoNumberSumOptimized(array, targetSum):
     nums = {}
     for num in array:
@@ -27,7 +27,7 @@ def twoNumberSumOptimized(array, targetSum):
             nums[num]=True
     return []
 
-# time : o(n log n), space : o(n)
+# time : o(n log n) | space : o(n)
 def twoNumberSum(array, targetSum):
     array.sort()
     left = 0

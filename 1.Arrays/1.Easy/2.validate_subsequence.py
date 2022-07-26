@@ -6,7 +6,7 @@
 # output :
     # true
 
-# time : o(n), space : o(1)
+# time : o(n) | space : o(1)
 def isValidSubsequence(array, sequence):
     # Write your code here.
     arrIdx = 0
