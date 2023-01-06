@@ -1,3 +1,10 @@
+# First Duplicate Value
+# Given an array of int between 1 to n where n is the len of arr
+# write a fun that returns first integer that appears more than once
+# Input: array = [2, 1, 5, 2, 3, 3, 4]
+# output: 2
+
+
 # time: O(n^2) | space: O(1)
 # 1.Iterate over array with 2 nested for loops
 # 2.Compare the i and j elements if the match is found update the minIdx

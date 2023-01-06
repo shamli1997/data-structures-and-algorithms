@@ -1,3 +1,9 @@
+# Array of products
+# write a function that takes an array and returns
+# an array which contains product of every other number in the input array
+# input: array= [5, 1, 4, 2]
+# output: [8, 40, 10, 20]
+
 # time: O(n^2) | space : O(n)
 def bruitearrayOfProducts(array):
     # use 2 loops and calculate the product iff i != j
