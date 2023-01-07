@@ -40,6 +40,7 @@ def optimizedarrayOfProducts(array):
         products[i] = leftProducts[i] * rightProducts[i]
 
     return products
+
 # 1. take an array of products initialized with 1
 # 2. iterate over the array and insert the leftRunningProduct * array[i] in products array
 # 3. iterate over the array in reverse order and insert rightRunningProduct * array[i]
